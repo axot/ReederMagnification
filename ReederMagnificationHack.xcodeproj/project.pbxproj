@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538C72BC16259A4B00B1FC0B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C72BB16259A4B00B1FC0B /* CoreFoundation.framework */; };
+		538C72C216259A4B00B1FC0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 538C72C016259A4B00B1FC0B /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		538C72B816259A4B00B1FC0B /* ReederMagnificationHack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReederMagnificationHack.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		538C72BB16259A4B00B1FC0B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		538C72BF16259A4B00B1FC0B /* ReederMagnificationHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReederMagnificationHack-Info.plist"; sourceTree = "<group>"; };
+		538C72C116259A4B00B1FC0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		538C72C316259A4B00B1FC0B /* ReederMagnificationHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReederMagnificationHack-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538C72B516259A4B00B1FC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538C72BC16259A4B00B1FC0B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538C72AD16259A4B00B1FC0B = {
+			isa = PBXGroup;
+			children = (
+				538C72BD16259A4B00B1FC0B /* ReederMagnificationHack */,
+				538C72BA16259A4B00B1FC0B /* Frameworks */,
+				538C72B916259A4B00B1FC0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538C72B916259A4B00B1FC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538C72B816259A4B00B1FC0B /* ReederMagnificationHack.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538C72BA16259A4B00B1FC0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				538C72BB16259A4B00B1FC0B /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		538C72BD16259A4B00B1FC0B /* ReederMagnificationHack */ = {
+			isa = PBXGroup;
+			children = (
+				538C72BE16259A4B00B1FC0B /* Supporting Files */,
+			);
+			path = ReederMagnificationHack;
+			sourceTree = "<group>";
+		};
+		538C72BE16259A4B00B1FC0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				538C72BF16259A4B00B1FC0B /* ReederMagnificationHack-Info.plist */,
+				538C72C016259A4B00B1FC0B /* InfoPlist.strings */,
+				538C72C316259A4B00B1FC0B /* ReederMagnificationHack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538C72B716259A4B00B1FC0B /* ReederMagnificationHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538C72C616259A4B00B1FC0B /* Build configuration list for PBXNativeTarget "ReederMagnificationHack" */;
+			buildPhases = (
+				538C72B416259A4B00B1FC0B /* Sources */,
+				538C72B516259A4B00B1FC0B /* Frameworks */,
+				538C72B616259A4B00B1FC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReederMagnificationHack;
+			productName = ReederMagnificationHack;
+			productReference = 538C72B816259A4B00B1FC0B /* ReederMagnificationHack.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538C72AF16259A4B00B1FC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = org.axot;
+			};
+			buildConfigurationList = 538C72B216259A4B00B1FC0B /* Build configuration list for PBXProject "ReederMagnificationHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 538C72AD16259A4B00B1FC0B;
+			productRefGroup = 538C72B916259A4B00B1FC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538C72B716259A4B00B1FC0B /* ReederMagnificationHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538C72B616259A4B00B1FC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538C72C216259A4B00B1FC0B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538C72B416259A4B00B1FC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		538C72C016259A4B00B1FC0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538C72C116259A4B00B1FC0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538C72C416259A4B00B1FC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		538C72C516259A4B00B1FC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		538C72C716259A4B00B1FC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReederMagnificationHack/ReederMagnificationHack-Prefix.pch";
+				INFOPLIST_FILE = "ReederMagnificationHack/ReederMagnificationHack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		538C72C816259A4B00B1FC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReederMagnificationHack/ReederMagnificationHack-Prefix.pch";
+				INFOPLIST_FILE = "ReederMagnificationHack/ReederMagnificationHack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538C72B216259A4B00B1FC0B /* Build configuration list for PBXProject "ReederMagnificationHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538C72C416259A4B00B1FC0B /* Debug */,
+				538C72C516259A4B00B1FC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538C72C616259A4B00B1FC0B /* Build configuration list for PBXNativeTarget "ReederMagnificationHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538C72C716259A4B00B1FC0B /* Debug */,
+				538C72C816259A4B00B1FC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538C72AF16259A4B00B1FC0B /* Project object */;
+}
