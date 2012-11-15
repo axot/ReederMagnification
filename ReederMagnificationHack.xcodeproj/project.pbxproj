@@ -7,16 +7,348 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537EC1B6162716F200F983D7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537EC1B5162716F200F983D7 /* WebKit.framework */; };
 		538C72BC16259A4B00B1FC0B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C72BB16259A4B00B1FC0B /* CoreFoundation.framework */; };
 		538C72C216259A4B00B1FC0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 538C72C016259A4B00B1FC0B /* InfoPlist.strings */; };
+		538C72CB16259AD400B1FC0B /* ReederMagnification.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C72CA16259AD400B1FC0B /* ReederMagnification.m */; };
+		538C72CE16259EE100B1FC0B /* WebView+EnableMaganification.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C72CD16259EE100B1FC0B /* WebView+EnableMaganification.m */; };
+		538C72D01625A1F900B1FC0B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C72CF1625A1F900B1FC0B /* AppKit.framework */; };
+		538C72D31625AD2B00B1FC0B /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C72D21625AD2B00B1FC0B /* NSObject+Swizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		537AB251162950AC001872CC /* __CoreWindowPopoverContentViewPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = __CoreWindowPopoverContentViewPaint.h; path = "Reeder-Classes/__CoreWindowPopoverContentViewPaint.h"; sourceTree = SOURCE_ROOT; };
+		537AB252162950AC001872CC /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutController.h; path = "Reeder-Classes/AboutController.h"; sourceTree = SOURCE_ROOT; };
+		537AB253162950AC001872CC /* AccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountController.h; path = "Reeder-Classes/AccountController.h"; sourceTree = SOURCE_ROOT; };
+		537AB254162950AC001872CC /* AccountControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AccountControllerDelegate-Protocol.h"; path = "Reeder-Classes/AccountControllerDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB255162950AC001872CC /* AddSubscriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddSubscriptionController.h; path = "Reeder-Classes/AddSubscriptionController.h"; sourceTree = SOURCE_ROOT; };
+		537AB256162950AC001872CC /* AddSubscriptionDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AddSubscriptionDelegate-Protocol.h"; path = "Reeder-Classes/AddSubscriptionDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB257162950AC001872CC /* ArticleNSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleNSView.h; path = "Reeder-Classes/ArticleNSView.h"; sourceTree = SOURCE_ROOT; };
+		537AB258162950AC001872CC /* ArticleShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleShadowView.h; path = "Reeder-Classes/ArticleShadowView.h"; sourceTree = SOURCE_ROOT; };
+		537AB259162950AC001872CC /* ArticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleView.h; path = "Reeder-Classes/ArticleView.h"; sourceTree = SOURCE_ROOT; };
+		537AB25A162950AC001872CC /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleViewController.h; path = "Reeder-Classes/ArticleViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB25B162950AC001872CC /* ArticleViewStreamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleViewStreamView.h; path = "Reeder-Classes/ArticleViewStreamView.h"; sourceTree = SOURCE_ROOT; };
+		537AB25C162950AC001872CC /* CALayer-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer-CoreKit.h"; path = "Reeder-Classes/CALayer-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB25D162950AC001872CC /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = "Reeder-Classes/CDataScanner.h"; sourceTree = SOURCE_ROOT; };
+		537AB25E162950AC001872CC /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDStructures.h; path = "Reeder-Classes/CDStructures.h"; sourceTree = SOURCE_ROOT; };
+		537AB25F162950AC001872CC /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFilteringJSONSerializer.h; path = "Reeder-Classes/CFilteringJSONSerializer.h"; sourceTree = SOURCE_ROOT; };
+		537AB260162950AC001872CC /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer.h; path = "Reeder-Classes/CJSONDeserializer.h"; sourceTree = SOURCE_ROOT; };
+		537AB261162950AC001872CC /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONScanner.h; path = "Reeder-Classes/CJSONScanner.h"; sourceTree = SOURCE_ROOT; };
+		537AB262162950AC001872CC /* CJSONSerializable-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CJSONSerializable-Protocol.h"; path = "Reeder-Classes/CJSONSerializable-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB263162950AC001872CC /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerialization.h; path = "Reeder-Classes/CJSONSerialization.h"; sourceTree = SOURCE_ROOT; };
+		537AB264162950AC001872CC /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializedData.h; path = "Reeder-Classes/CJSONSerializedData.h"; sourceTree = SOURCE_ROOT; };
+		537AB265162950AC001872CC /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializer.h; path = "Reeder-Classes/CJSONSerializer.h"; sourceTree = SOURCE_ROOT; };
+		537AB266162950AC001872CC /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = "Reeder-Classes/Core.h"; sourceTree = SOURCE_ROOT; };
+		537AB267162950AC001872CC /* CoreActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreActivityIndicator.h; path = "Reeder-Classes/CoreActivityIndicator.h"; sourceTree = SOURCE_ROOT; };
+		537AB268162950AC001872CC /* CoreActivityIndicatorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreActivityIndicatorLayer.h; path = "Reeder-Classes/CoreActivityIndicatorLayer.h"; sourceTree = SOURCE_ROOT; };
+		537AB269162950AC001872CC /* CoreBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBackgroundView.h; path = "Reeder-Classes/CoreBackgroundView.h"; sourceTree = SOURCE_ROOT; };
+		537AB26A162950AC001872CC /* CoreBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBarButtonItem.h; path = "Reeder-Classes/CoreBarButtonItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB26B162950AC001872CC /* CoreBarFlexibleSpaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBarFlexibleSpaceItem.h; path = "Reeder-Classes/CoreBarFlexibleSpaceItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB26C162950AC001872CC /* CoreBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBarItem.h; path = "Reeder-Classes/CoreBarItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB26D162950AC001872CC /* CoreBarSpaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBarSpaceItem.h; path = "Reeder-Classes/CoreBarSpaceItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB26E162950AC001872CC /* CoreBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBarView.h; path = "Reeder-Classes/CoreBarView.h"; sourceTree = SOURCE_ROOT; };
+		537AB26F162950AC001872CC /* CoreBarViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreBarViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreBarViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB270162950AC001872CC /* CoreBounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreBounceView.h; path = "Reeder-Classes/CoreBounceView.h"; sourceTree = SOURCE_ROOT; };
+		537AB271162950AC001872CC /* CoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreButton.h; path = "Reeder-Classes/CoreButton.h"; sourceTree = SOURCE_ROOT; };
+		537AB272162950AC001872CC /* CoreControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreControl.h; path = "Reeder-Classes/CoreControl.h"; sourceTree = SOURCE_ROOT; };
+		537AB273162950AC001872CC /* CoreControlTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreControlTargetAction.h; path = "Reeder-Classes/CoreControlTargetAction.h"; sourceTree = SOURCE_ROOT; };
+		537AB274162950AC001872CC /* CoreDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDividerView.h; path = "Reeder-Classes/CoreDividerView.h"; sourceTree = SOURCE_ROOT; };
+		537AB275162950AC001872CC /* CoreDividerViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreDividerViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreDividerViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB276162950AC001872CC /* CoreFormButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormButtonCell.h; path = "Reeder-Classes/CoreFormButtonCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB277162950AC001872CC /* CoreFormCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormCell.h; path = "Reeder-Classes/CoreFormCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB278162950AC001872CC /* CoreFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormController.h; path = "Reeder-Classes/CoreFormController.h"; sourceTree = SOURCE_ROOT; };
+		537AB279162950AC001872CC /* CoreFormControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreFormControllerDelegate-Protocol.h"; path = "Reeder-Classes/CoreFormControllerDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB27A162950AC001872CC /* CoreFormLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormLabelCell.h; path = "Reeder-Classes/CoreFormLabelCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB27B162950AC001872CC /* CoreFormTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormTableView.h; path = "Reeder-Classes/CoreFormTableView.h"; sourceTree = SOURCE_ROOT; };
+		537AB27C162950AC001872CC /* CoreFormTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormTextFieldCell.h; path = "Reeder-Classes/CoreFormTextFieldCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB27D162950AC001872CC /* CoreFormTextViewActionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormTextViewActionsCell.h; path = "Reeder-Classes/CoreFormTextViewActionsCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB27E162950AC001872CC /* CoreFormTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormTextViewCell.h; path = "Reeder-Classes/CoreFormTextViewCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB27F162950AC001872CC /* CoreFormTitlebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreFormTitlebar.h; path = "Reeder-Classes/CoreFormTitlebar.h"; sourceTree = SOURCE_ROOT; };
+		537AB280162950AC001872CC /* CoreGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreGeometry.h; path = "Reeder-Classes/CoreGeometry.h"; sourceTree = SOURCE_ROOT; };
+		537AB281162950AC001872CC /* CoreGeometryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreGeometryItem.h; path = "Reeder-Classes/CoreGeometryItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB282162950AC001872CC /* CoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreLabel.h; path = "Reeder-Classes/CoreLabel.h"; sourceTree = SOURCE_ROOT; };
+		537AB283162950AC001872CC /* CoreLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreLayer.h; path = "Reeder-Classes/CoreLayer.h"; sourceTree = SOURCE_ROOT; };
+		537AB284162950AC001872CC /* CoreLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreLayoutManager.h; path = "Reeder-Classes/CoreLayoutManager.h"; sourceTree = SOURCE_ROOT; };
+		537AB285162950AC001872CC /* CoreNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNavigationController.h; path = "Reeder-Classes/CoreNavigationController.h"; sourceTree = SOURCE_ROOT; };
+		537AB286162950AC001872CC /* CoreNSScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNSScroller.h; path = "Reeder-Classes/CoreNSScroller.h"; sourceTree = SOURCE_ROOT; };
+		537AB287162950AC001872CC /* CoreNSSecureTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNSSecureTextField.h; path = "Reeder-Classes/CoreNSSecureTextField.h"; sourceTree = SOURCE_ROOT; };
+		537AB288162950AC001872CC /* CoreNSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNSTextField.h; path = "Reeder-Classes/CoreNSTextField.h"; sourceTree = SOURCE_ROOT; };
+		537AB289162950AC001872CC /* CoreNSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNSTextView.h; path = "Reeder-Classes/CoreNSTextView.h"; sourceTree = SOURCE_ROOT; };
+		537AB28A162950AC001872CC /* CoreNSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNSWebView.h; path = "Reeder-Classes/CoreNSWebView.h"; sourceTree = SOURCE_ROOT; };
+		537AB28B162950AC001872CC /* CoreNSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreNSWindow.h; path = "Reeder-Classes/CoreNSWindow.h"; sourceTree = SOURCE_ROOT; };
+		537AB28C162950AC001872CC /* CorePainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorePainter.h; path = "Reeder-Classes/CorePainter.h"; sourceTree = SOURCE_ROOT; };
+		537AB28D162950AC001872CC /* CorePopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorePopover.h; path = "Reeder-Classes/CorePopover.h"; sourceTree = SOURCE_ROOT; };
+		537AB28E162950AC001872CC /* CorePopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorePopoverBackgroundView.h; path = "Reeder-Classes/CorePopoverBackgroundView.h"; sourceTree = SOURCE_ROOT; };
+		537AB28F162950AC001872CC /* CorePopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorePopoverController.h; path = "Reeder-Classes/CorePopoverController.h"; sourceTree = SOURCE_ROOT; };
+		537AB290162950AC001872CC /* CorePopoverPainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorePopoverPainter.h; path = "Reeder-Classes/CorePopoverPainter.h"; sourceTree = SOURCE_ROOT; };
+		537AB291162950AC001872CC /* CoreReederAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreReederAppDelegate.h; path = "Reeder-Classes/CoreReederAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		537AB292162950AC001872CC /* CoreResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreResponder.h; path = "Reeder-Classes/CoreResponder.h"; sourceTree = SOURCE_ROOT; };
+		537AB293162950AC001872CC /* CoreScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreScroller.h; path = "Reeder-Classes/CoreScroller.h"; sourceTree = SOURCE_ROOT; };
+		537AB294162950AC001872CC /* CoreScrollerKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreScrollerKnob.h; path = "Reeder-Classes/CoreScrollerKnob.h"; sourceTree = SOURCE_ROOT; };
+		537AB295162950AC001872CC /* CoreScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreScrollLayer.h; path = "Reeder-Classes/CoreScrollLayer.h"; sourceTree = SOURCE_ROOT; };
+		537AB296162950AC001872CC /* CoreScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreScrollView.h; path = "Reeder-Classes/CoreScrollView.h"; sourceTree = SOURCE_ROOT; };
+		537AB297162950AC001872CC /* CoreScrollViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreScrollViewAnimation.h; path = "Reeder-Classes/CoreScrollViewAnimation.h"; sourceTree = SOURCE_ROOT; };
+		537AB298162950AC001872CC /* CoreScrollViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreScrollViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreScrollViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB299162950AC001872CC /* CoreSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreSplitView.h; path = "Reeder-Classes/CoreSplitView.h"; sourceTree = SOURCE_ROOT; };
+		537AB29A162950AC001872CC /* CoreTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTableView.h; path = "Reeder-Classes/CoreTableView.h"; sourceTree = SOURCE_ROOT; };
+		537AB29B162950AC001872CC /* CoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTableViewCell.h; path = "Reeder-Classes/CoreTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB29C162950AC001872CC /* CoreTableViewCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTableViewCellContentView.h; path = "Reeder-Classes/CoreTableViewCellContentView.h"; sourceTree = SOURCE_ROOT; };
+		537AB29D162950AC001872CC /* CoreTableViewCellContentViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreTableViewCellContentViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreTableViewCellContentViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB29E162950AC001872CC /* CoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTableViewController.h; path = "Reeder-Classes/CoreTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB29F162950AC001872CC /* CoreTableViewDataSource-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreTableViewDataSource-Protocol.h"; path = "Reeder-Classes/CoreTableViewDataSource-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A0162950AC001872CC /* CoreTableViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreTableViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreTableViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A1162950AC001872CC /* CoreTableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTableViewSectionHeader.h; path = "Reeder-Classes/CoreTableViewSectionHeader.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A2162950AC001872CC /* CoreTableViewSectionHeaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTableViewSectionHeaderContentView.h; path = "Reeder-Classes/CoreTableViewSectionHeaderContentView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A3162950AC001872CC /* CoreTableViewSectionHeaderContentViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreTableViewSectionHeaderContentViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreTableViewSectionHeaderContentViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A4162950AC001872CC /* CoreTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTextField.h; path = "Reeder-Classes/CoreTextField.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A5162950AC001872CC /* CoreTextFieldDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreTextFieldDelegate-Protocol.h"; path = "Reeder-Classes/CoreTextFieldDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A6162950AC001872CC /* CoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTextView.h; path = "Reeder-Classes/CoreTextView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A7162950AC001872CC /* CoreTextViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreTextViewDelegate-Protocol.h"; path = "Reeder-Classes/CoreTextViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A8162950AC001872CC /* CoreTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreTransaction.h; path = "Reeder-Classes/CoreTransaction.h"; sourceTree = SOURCE_ROOT; };
+		537AB2A9162950AC001872CC /* CoreUIPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreUIPopover.h; path = "Reeder-Classes/CoreUIPopover.h"; sourceTree = SOURCE_ROOT; };
+		537AB2AA162950AC001872CC /* CoreUIWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreUIWindow.h; path = "Reeder-Classes/CoreUIWindow.h"; sourceTree = SOURCE_ROOT; };
+		537AB2AB162950AC001872CC /* CoreUIWindowBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreUIWindowBarView.h; path = "Reeder-Classes/CoreUIWindowBarView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2AC162950AC001872CC /* CoreUIWindowContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreUIWindowContentView.h; path = "Reeder-Classes/CoreUIWindowContentView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2AD162950AC001872CC /* CoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreView.h; path = "Reeder-Classes/CoreView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2AE162950AC001872CC /* CoreViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreViewContainer.h; path = "Reeder-Classes/CoreViewContainer.h"; sourceTree = SOURCE_ROOT; };
+		537AB2AF162950AC001872CC /* CoreViewContainerKeyViewIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreViewContainerKeyViewIndicator.h; path = "Reeder-Classes/CoreViewContainerKeyViewIndicator.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B0162950AC001872CC /* CoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreViewController.h; path = "Reeder-Classes/CoreViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B1162950AC001872CC /* CoreViewFrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreViewFrameAnimation.h; path = "Reeder-Classes/CoreViewFrameAnimation.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B2162950AC001872CC /* CoreWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWebView.h; path = "Reeder-Classes/CoreWebView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B3162950AC001872CC /* CoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindow.h; path = "Reeder-Classes/CoreWindow.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B4162950AC001872CC /* CoreWindowBackingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindowBackingLayer.h; path = "Reeder-Classes/CoreWindowBackingLayer.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B5162950AC001872CC /* CoreWindowBackingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindowBackingView.h; path = "Reeder-Classes/CoreWindowBackingView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B6162950AC001872CC /* CoreWindowDefaultContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindowDefaultContentView.h; path = "Reeder-Classes/CoreWindowDefaultContentView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B7162950AC001872CC /* CoreWindowKeyViewSelector-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreWindowKeyViewSelector-Protocol.h"; path = "Reeder-Classes/CoreWindowKeyViewSelector-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B8162950AC001872CC /* CoreWindowPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindowPopover.h; path = "Reeder-Classes/CoreWindowPopover.h"; sourceTree = SOURCE_ROOT; };
+		537AB2B9162950AC001872CC /* CoreWindowPopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindowPopoverContentView.h; path = "Reeder-Classes/CoreWindowPopoverContentView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2BA162950AC001872CC /* CoreWindowResizeIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreWindowResizeIndicatorView.h; path = "Reeder-Classes/CoreWindowResizeIndicatorView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2BB162950AC001872CC /* DockTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockTileView.h; path = "Reeder-Classes/DockTileView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2BC162950AC001872CC /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Editor.h; path = "Reeder-Classes/Editor.h"; sourceTree = SOURCE_ROOT; };
+		537AB2BD162950AC001872CC /* EditorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditorCommand.h; path = "Reeder-Classes/EditorCommand.h"; sourceTree = SOURCE_ROOT; };
+		537AB2BE162950AC001872CC /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterView.h; path = "Reeder-Classes/FilterView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2BF162950AC001872CC /* FilterViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterViewButton.h; path = "Reeder-Classes/FilterViewButton.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C0162950AC001872CC /* GestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestureHandler.h; path = "Reeder-Classes/GestureHandler.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C1162950AC001872CC /* IconButtonActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconButtonActivityView.h; path = "Reeder-Classes/IconButtonActivityView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C2162950AC001872CC /* IconButtonImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconButtonImageView.h; path = "Reeder-Classes/IconButtonImageView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C3162950AC001872CC /* IconButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconButtonView.h; path = "Reeder-Classes/IconButtonView.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C4162950AC001872CC /* IconFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFetcher.h; path = "Reeder-Classes/IconFetcher.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C5162950AC001872CC /* IconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconManager.h; path = "Reeder-Classes/IconManager.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C6162950AC001872CC /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Image.h; path = "Reeder-Classes/Image.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C7162950AC001872CC /* ItemsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsTableViewCell.h; path = "Reeder-Classes/ItemsTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C8162950AC001872CC /* ItemsTableViewDelayedFetchOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsTableViewDelayedFetchOverlay.h; path = "Reeder-Classes/ItemsTableViewDelayedFetchOverlay.h"; sourceTree = SOURCE_ROOT; };
+		537AB2C9162950AC001872CC /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewController.h; path = "Reeder-Classes/ItemsViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB2CA162950AC001872CC /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = "Reeder-Classes/Menu.h"; sourceTree = SOURCE_ROOT; };
+		537AB2CB162950AC001872CC /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = "Reeder-Classes/MenuItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB2CC162950AC001872CC /* MenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuManager.h; path = "Reeder-Classes/MenuManager.h"; sourceTree = SOURCE_ROOT; };
+		537AB2CD162950AC001872CC /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterEngine.h; path = "Reeder-Classes/MGTwitterEngine.h"; sourceTree = SOURCE_ROOT; };
+		537AB2CE162950AC001872CC /* MGTwitterEngineDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MGTwitterEngineDelegate-Protocol.h"; path = "Reeder-Classes/MGTwitterEngineDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2CF162950AC001872CC /* MGTwitterHTTPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterHTTPURLConnection.h; path = "Reeder-Classes/MGTwitterHTTPURLConnection.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D0162950AC001872CC /* MGTwitterMessagesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterMessagesParser.h; path = "Reeder-Classes/MGTwitterMessagesParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D1162950AC001872CC /* MGTwitterMiscParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterMiscParser.h; path = "Reeder-Classes/MGTwitterMiscParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D2162950AC001872CC /* MGTwitterParserDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MGTwitterParserDelegate-Protocol.h"; path = "Reeder-Classes/MGTwitterParserDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D3162950AC001872CC /* MGTwitterSocialGraphParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterSocialGraphParser.h; path = "Reeder-Classes/MGTwitterSocialGraphParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D4162950AC001872CC /* MGTwitterStatusesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterStatusesParser.h; path = "Reeder-Classes/MGTwitterStatusesParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D5162950AC001872CC /* MGTwitterTouchJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterTouchJSONParser.h; path = "Reeder-Classes/MGTwitterTouchJSONParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D6162950AC001872CC /* MGTwitterUsersParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterUsersParser.h; path = "Reeder-Classes/MGTwitterUsersParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D7162950AC001872CC /* MGTwitterXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterXMLParser.h; path = "Reeder-Classes/MGTwitterXMLParser.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D8162950AC001872CC /* NSAlert-SRAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAlert-SRAdditions.h"; path = "Reeder-Classes/NSAlert-SRAdditions.h"; sourceTree = SOURCE_ROOT; };
+		537AB2D9162950AC001872CC /* NSApplicationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSApplicationDelegate-Protocol.h"; path = "Reeder-Classes/NSApplicationDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2DA162950AC001872CC /* NSCoding-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCoding-Protocol.h"; path = "Reeder-Classes/NSCoding-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2DB162950AC001872CC /* NSColor-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor-CoreKit.h"; path = "Reeder-Classes/NSColor-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2DC162950AC001872CC /* NSColor-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor-Reeder.h"; path = "Reeder-Classes/NSColor-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB2DD162950AC001872CC /* NSControlTextEditingDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSControlTextEditingDelegate-Protocol.h"; path = "Reeder-Classes/NSControlTextEditingDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2DE162950AC001872CC /* NSData-Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData-Base64.h"; path = "Reeder-Classes/NSData-Base64.h"; sourceTree = SOURCE_ROOT; };
+		537AB2DF162950AC001872CC /* NSData-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData-CoreKit.h"; path = "Reeder-Classes/NSData-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E0162950AC001872CC /* NSData-Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData-Reader.h"; path = "Reeder-Classes/NSData-Reader.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E1162950AC001872CC /* NSDate-Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate-Reader.h"; path = "Reeder-Classes/NSDate-Reader.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E2162950AC001872CC /* NSDateFormatter-Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter-Reader.h"; path = "Reeder-Classes/NSDateFormatter-Reader.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E3162950AC001872CC /* NSDictionary-MGTwitterEngineExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary-MGTwitterEngineExtensions.h"; path = "Reeder-Classes/NSDictionary-MGTwitterEngineExtensions.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E4162950AC001872CC /* NSDictionary-NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary-NSDictionary_JSONExtensions.h"; path = "Reeder-Classes/NSDictionary-NSDictionary_JSONExtensions.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E5162950AC001872CC /* NSEvent-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSEvent-CoreKit.h"; path = "Reeder-Classes/NSEvent-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E6162950AC001872CC /* NSFont-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFont-CoreKit.h"; path = "Reeder-Classes/NSFont-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E7162950AC001872CC /* NSFont-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFont-Reeder.h"; path = "Reeder-Classes/NSFont-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E8162950AC001872CC /* NSImage-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage-Reeder.h"; path = "Reeder-Classes/NSImage-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB2E9162950AC001872CC /* NSIndexPath-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath-CoreKit.h"; path = "Reeder-Classes/NSIndexPath-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2EA162950AC001872CC /* NSIndexPath-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath-Reeder.h"; path = "Reeder-Classes/NSIndexPath-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB2EB162950AC001872CC /* NSMenuDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMenuDelegate-Protocol.h"; path = "Reeder-Classes/NSMenuDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2EC162950AC001872CC /* NSMutableURLRequest-OAParameterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest-OAParameterAdditions.h"; path = "Reeder-Classes/NSMutableURLRequest-OAParameterAdditions.h"; sourceTree = SOURCE_ROOT; };
+		537AB2ED162950AC001872CC /* NSObject-Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject-Additions.h"; path = "Reeder-Classes/NSObject-Additions.h"; sourceTree = SOURCE_ROOT; };
+		537AB2EE162950AC001872CC /* NSObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject-Protocol.h"; path = "Reeder-Classes/NSObject-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2EF162950AC001872CC /* NSObject-SRValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject-SRValidation.h"; path = "Reeder-Classes/NSObject-SRValidation.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F0162950AC001872CC /* NSOutlineViewDataSource-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOutlineViewDataSource-Protocol.h"; path = "Reeder-Classes/NSOutlineViewDataSource-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F1162950AC001872CC /* NSOutlineViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOutlineViewDelegate-Protocol.h"; path = "Reeder-Classes/NSOutlineViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F2162950AC001872CC /* NSPasteboard-URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSPasteboard-URL.h"; path = "Reeder-Classes/NSPasteboard-URL.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F3162950AC001872CC /* NSScrollView-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSScrollView-Reeder.h"; path = "Reeder-Classes/NSScrollView-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F4162950AC001872CC /* NSString-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-CoreKit.h"; path = "Reeder-Classes/NSString-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F5162950AC001872CC /* NSString-OAURLEncodingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-OAURLEncodingAdditions.h"; path = "Reeder-Classes/NSString-OAURLEncodingAdditions.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F6162950AC001872CC /* NSString-Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-Reader.h"; path = "Reeder-Classes/NSString-Reader.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F7162950AC001872CC /* NSString-URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-URLEncoding.h"; path = "Reeder-Classes/NSString-URLEncoding.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F8162950AC001872CC /* NSString-UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-UUID.h"; path = "Reeder-Classes/NSString-UUID.h"; sourceTree = SOURCE_ROOT; };
+		537AB2F9162950AC001872CC /* NSTableViewDataSource-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTableViewDataSource-Protocol.h"; path = "Reeder-Classes/NSTableViewDataSource-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2FA162950AC001872CC /* NSTextDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextDelegate-Protocol.h"; path = "Reeder-Classes/NSTextDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2FB162950AC001872CC /* NSTextFieldDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextFieldDelegate-Protocol.h"; path = "Reeder-Classes/NSTextFieldDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2FC162950AC001872CC /* NSTextInput-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextInput-Protocol.h"; path = "Reeder-Classes/NSTextInput-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2FD162950AC001872CC /* NSTextView-CoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextView-CoreKit.h"; path = "Reeder-Classes/NSTextView-CoreKit.h"; sourceTree = SOURCE_ROOT; };
+		537AB2FE162950AC001872CC /* NSTextViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTextViewDelegate-Protocol.h"; path = "Reeder-Classes/NSTextViewDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB2FF162950AC001872CC /* NSToolbarDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSToolbarDelegate-Protocol.h"; path = "Reeder-Classes/NSToolbarDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB300162950AC001872CC /* NSURL-OABaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL-OABaseAdditions.h"; path = "Reeder-Classes/NSURL-OABaseAdditions.h"; sourceTree = SOURCE_ROOT; };
+		537AB301162950AC001872CC /* NSURLRequest-OAuthExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest-OAuthExtensions.h"; path = "Reeder-Classes/NSURLRequest-OAuthExtensions.h"; sourceTree = SOURCE_ROOT; };
+		537AB302162950AC001872CC /* NSUserDefaults-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults-Reeder.h"; path = "Reeder-Classes/NSUserDefaults-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB303162950AC001872CC /* NSWindow-CoreResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSWindow-CoreResponder.h"; path = "Reeder-Classes/NSWindow-CoreResponder.h"; sourceTree = SOURCE_ROOT; };
+		537AB304162950AC001872CC /* NSWindowDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSWindowDelegate-Protocol.h"; path = "Reeder-Classes/NSWindowDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB305162950AC001872CC /* NSWorkspace-Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSWorkspace-Reeder.h"; path = "Reeder-Classes/NSWorkspace-Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB306162950AC001872CC /* NSXMLParserDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSXMLParserDelegate-Protocol.h"; path = "Reeder-Classes/NSXMLParserDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB307162950AC001872CC /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAAttachment.h; path = "Reeder-Classes/OAAttachment.h"; sourceTree = SOURCE_ROOT; };
+		537AB308162950AC001872CC /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OACall.h; path = "Reeder-Classes/OACall.h"; sourceTree = SOURCE_ROOT; };
+		537AB309162950AC001872CC /* OACallDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OACallDelegate-Protocol.h"; path = "Reeder-Classes/OACallDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB30A162950AC001872CC /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAConsumer.h; path = "Reeder-Classes/OAConsumer.h"; sourceTree = SOURCE_ROOT; };
+		537AB30B162950AC001872CC /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OADataFetcher.h; path = "Reeder-Classes/OADataFetcher.h"; sourceTree = SOURCE_ROOT; };
+		537AB30C162950AC001872CC /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAHMAC_SHA1SignatureProvider.h; path = "Reeder-Classes/OAHMAC_SHA1SignatureProvider.h"; sourceTree = SOURCE_ROOT; };
+		537AB30D162950AC001872CC /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAMutableURLRequest.h; path = "Reeder-Classes/OAMutableURLRequest.h"; sourceTree = SOURCE_ROOT; };
+		537AB30E162950AC001872CC /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAPlaintextSignatureProvider.h; path = "Reeder-Classes/OAPlaintextSignatureProvider.h"; sourceTree = SOURCE_ROOT; };
+		537AB30F162950AC001872CC /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAProblem.h; path = "Reeder-Classes/OAProblem.h"; sourceTree = SOURCE_ROOT; };
+		537AB310162950AC001872CC /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OARequestParameter.h; path = "Reeder-Classes/OARequestParameter.h"; sourceTree = SOURCE_ROOT; };
+		537AB311162950AC001872CC /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAServiceTicket.h; path = "Reeder-Classes/OAServiceTicket.h"; sourceTree = SOURCE_ROOT; };
+		537AB312162950AC001872CC /* OASignatureProviding-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OASignatureProviding-Protocol.h"; path = "Reeder-Classes/OASignatureProviding-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB313162950AC001872CC /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAToken.h; path = "Reeder-Classes/OAToken.h"; sourceTree = SOURCE_ROOT; };
+		537AB314162950AC001872CC /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OATokenManager.h; path = "Reeder-Classes/OATokenManager.h"; sourceTree = SOURCE_ROOT; };
+		537AB315162950AC001872CC /* OutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutlineView.h; path = "Reeder-Classes/OutlineView.h"; sourceTree = SOURCE_ROOT; };
+		537AB316162950AC001872CC /* PrefAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefAccountController.h; path = "Reeder-Classes/PrefAccountController.h"; sourceTree = SOURCE_ROOT; };
+		537AB317162950AC001872CC /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefController.h; path = "Reeder-Classes/PrefController.h"; sourceTree = SOURCE_ROOT; };
+		537AB318162950AC001872CC /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesController.h; path = "Reeder-Classes/PreferencesController.h"; sourceTree = SOURCE_ROOT; };
+		537AB319162950AC001872CC /* PrefGeneralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefGeneralController.h; path = "Reeder-Classes/PrefGeneralController.h"; sourceTree = SOURCE_ROOT; };
+		537AB31A162950AC001872CC /* PrefGesturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefGesturesController.h; path = "Reeder-Classes/PrefGesturesController.h"; sourceTree = SOURCE_ROOT; };
+		537AB31B162950AC001872CC /* PrefInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefInterfaceController.h; path = "Reeder-Classes/PrefInterfaceController.h"; sourceTree = SOURCE_ROOT; };
+		537AB31C162950AC001872CC /* PrefInterfaceSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefInterfaceSlider.h; path = "Reeder-Classes/PrefInterfaceSlider.h"; sourceTree = SOURCE_ROOT; };
+		537AB31D162950AC001872CC /* PrefReadingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefReadingController.h; path = "Reeder-Classes/PrefReadingController.h"; sourceTree = SOURCE_ROOT; };
+		537AB31E162950AC001872CC /* PrefServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefServicesController.h; path = "Reeder-Classes/PrefServicesController.h"; sourceTree = SOURCE_ROOT; };
+		537AB31F162950AC001872CC /* PrefShortcutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefShortcutController.h; path = "Reeder-Classes/PrefShortcutController.h"; sourceTree = SOURCE_ROOT; };
+		537AB320162950AC001872CC /* PrefSyncingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefSyncingController.h; path = "Reeder-Classes/PrefSyncingController.h"; sourceTree = SOURCE_ROOT; };
+		537AB321162950AC001872CC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "Reeder-Classes/Reachability.h"; sourceTree = SOURCE_ROOT; };
+		537AB322162950AC001872CC /* Readability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Readability.h; path = "Reeder-Classes/Readability.h"; sourceTree = SOURCE_ROOT; };
+		537AB323162950AC001872CC /* ReadabilityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadabilityButton.h; path = "Reeder-Classes/ReadabilityButton.h"; sourceTree = SOURCE_ROOT; };
+		537AB324162950AC001872CC /* ReadabilityDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ReadabilityDelegate-Protocol.h"; path = "Reeder-Classes/ReadabilityDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB325162950AC001872CC /* ReadabilityEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadabilityEngine.h; path = "Reeder-Classes/ReadabilityEngine.h"; sourceTree = SOURCE_ROOT; };
+		537AB326162950AC001872CC /* ReadabilitySync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadabilitySync.h; path = "Reeder-Classes/ReadabilitySync.h"; sourceTree = SOURCE_ROOT; };
+		537AB327162950AC001872CC /* ReadabilitySyncFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadabilitySyncFetcher.h; path = "Reeder-Classes/ReadabilitySyncFetcher.h"; sourceTree = SOURCE_ROOT; };
+		537AB328162950AC001872CC /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reader.h; path = "Reeder-Classes/Reader.h"; sourceTree = SOURCE_ROOT; };
+		537AB329162950AC001872CC /* ReaderCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderCleaner.h; path = "Reeder-Classes/ReaderCleaner.h"; sourceTree = SOURCE_ROOT; };
+		537AB32A162950AC001872CC /* ReaderCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderCore.h; path = "Reeder-Classes/ReaderCore.h"; sourceTree = SOURCE_ROOT; };
+		537AB32B162950AC001872CC /* ReaderCountsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderCountsUtil.h; path = "Reeder-Classes/ReaderCountsUtil.h"; sourceTree = SOURCE_ROOT; };
+		537AB32C162950AC001872CC /* ReaderFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderFeed.h; path = "Reeder-Classes/ReaderFeed.h"; sourceTree = SOURCE_ROOT; };
+		537AB32D162950AC001872CC /* ReaderFetchItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderFetchItems.h; path = "Reeder-Classes/ReaderFetchItems.h"; sourceTree = SOURCE_ROOT; };
+		537AB32E162950AC001872CC /* ReaderFetchStoredItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderFetchStoredItems.h; path = "Reeder-Classes/ReaderFetchStoredItems.h"; sourceTree = SOURCE_ROOT; };
+		537AB32F162950AC001872CC /* ReaderFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderFolder.h; path = "Reeder-Classes/ReaderFolder.h"; sourceTree = SOURCE_ROOT; };
+		537AB330162950AC001872CC /* ReaderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderItem.h; path = "Reeder-Classes/ReaderItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB331162950AC001872CC /* ReaderItemCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderItemCache.h; path = "Reeder-Classes/ReaderItemCache.h"; sourceTree = SOURCE_ROOT; };
+		537AB332162950AC001872CC /* ReaderItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderItemData.h; path = "Reeder-Classes/ReaderItemData.h"; sourceTree = SOURCE_ROOT; };
+		537AB333162950AC001872CC /* ReaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderOperation.h; path = "Reeder-Classes/ReaderOperation.h"; sourceTree = SOURCE_ROOT; };
+		537AB334162950AC001872CC /* ReaderOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderOperationQueue.h; path = "Reeder-Classes/ReaderOperationQueue.h"; sourceTree = SOURCE_ROOT; };
+		537AB335162950AC001872CC /* ReaderRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderRequest.h; path = "Reeder-Classes/ReaderRequest.h"; sourceTree = SOURCE_ROOT; };
+		537AB336162950AC001872CC /* ReaderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderStore.h; path = "Reeder-Classes/ReaderStore.h"; sourceTree = SOURCE_ROOT; };
+		537AB337162950AC001872CC /* ReaderStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderStream.h; path = "Reeder-Classes/ReaderStream.h"; sourceTree = SOURCE_ROOT; };
+		537AB338162950AC001872CC /* ReaderSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderSync.h; path = "Reeder-Classes/ReaderSync.h"; sourceTree = SOURCE_ROOT; };
+		537AB339162950AC001872CC /* ReaderSyncCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderSyncCache.h; path = "Reeder-Classes/ReaderSyncCache.h"; sourceTree = SOURCE_ROOT; };
+		537AB33A162950AC001872CC /* ReaderSyncFollowers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderSyncFollowers.h; path = "Reeder-Classes/ReaderSyncFollowers.h"; sourceTree = SOURCE_ROOT; };
+		537AB33B162950AC001872CC /* ReaderSyncItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderSyncItems.h; path = "Reeder-Classes/ReaderSyncItems.h"; sourceTree = SOURCE_ROOT; };
+		537AB33C162950AC001872CC /* ReaderSyncSubscriptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderSyncSubscriptions.h; path = "Reeder-Classes/ReaderSyncSubscriptions.h"; sourceTree = SOURCE_ROOT; };
+		537AB33D162950AC001872CC /* ReaderUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderUser.h; path = "Reeder-Classes/ReaderUser.h"; sourceTree = SOURCE_ROOT; };
+		537AB33E162950AC001872CC /* Reeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reeder.h; path = "Reeder-Classes/Reeder.h"; sourceTree = SOURCE_ROOT; };
+		537AB33F162950AC001872CC /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootView.h; path = "Reeder-Classes/RootView.h"; sourceTree = SOURCE_ROOT; };
+		537AB340162950AC001872CC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "Reeder-Classes/RootViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB341162950AC001872CC /* RSDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSDataStore.h; path = "Reeder-Classes/RSDataStore.h"; sourceTree = SOURCE_ROOT; };
+		537AB342162950AC001872CC /* RSFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSFetchedResultsController.h; path = "Reeder-Classes/RSFetchedResultsController.h"; sourceTree = SOURCE_ROOT; };
+		537AB343162950AC001872CC /* RSFetchedResultsControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSFetchedResultsControllerDelegate-Protocol.h"; path = "Reeder-Classes/RSFetchedResultsControllerDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB344162950AC001872CC /* RSFetchedResultsSectionInfo-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSFetchedResultsSectionInfo-Protocol.h"; path = "Reeder-Classes/RSFetchedResultsSectionInfo-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB345162950AC001872CC /* RSFetchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSFetchRequest.h; path = "Reeder-Classes/RSFetchRequest.h"; sourceTree = SOURCE_ROOT; };
+		537AB346162950AC001872CC /* RSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSManagedObject.h; path = "Reeder-Classes/RSManagedObject.h"; sourceTree = SOURCE_ROOT; };
+		537AB347162950AC001872CC /* RSSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSectionInfo.h; path = "Reeder-Classes/RSSectionInfo.h"; sourceTree = SOURCE_ROOT; };
+		537AB348162950AC001872CC /* Scrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scrollview.h; path = "Reeder-Classes/Scrollview.h"; sourceTree = SOURCE_ROOT; };
+		537AB349162950AC001872CC /* SearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchTextField.h; path = "Reeder-Classes/SearchTextField.h"; sourceTree = SOURCE_ROOT; };
+		537AB34A162950AC001872CC /* SearchTextFieldDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SearchTextFieldDelegate-Protocol.h"; path = "Reeder-Classes/SearchTextFieldDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB34B162950AC001872CC /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Service.h; path = "Reeder-Classes/Service.h"; sourceTree = SOURCE_ROOT; };
+		537AB34C162950AC001872CC /* ServiceAlternateBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceAlternateBrowser.h; path = "Reeder-Classes/ServiceAlternateBrowser.h"; sourceTree = SOURCE_ROOT; };
+		537AB34D162950AC001872CC /* ServiceBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceBlog.h; path = "Reeder-Classes/ServiceBlog.h"; sourceTree = SOURCE_ROOT; };
+		537AB34E162950AC001872CC /* ServiceBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceBrowser.h; path = "Reeder-Classes/ServiceBrowser.h"; sourceTree = SOURCE_ROOT; };
+		537AB34F162950AC001872CC /* ServiceCopyLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceCopyLink.h; path = "Reeder-Classes/ServiceCopyLink.h"; sourceTree = SOURCE_ROOT; };
+		537AB350162950AC001872CC /* ServiceDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ServiceDelegate-Protocol.h"; path = "Reeder-Classes/ServiceDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB351162950AC001872CC /* ServiceDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceDelicious.h; path = "Reeder-Classes/ServiceDelicious.h"; sourceTree = SOURCE_ROOT; };
+		537AB352162950AC001872CC /* ServiceEvernote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceEvernote.h; path = "Reeder-Classes/ServiceEvernote.h"; sourceTree = SOURCE_ROOT; };
+		537AB353162950AC001872CC /* ServiceFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceFacebook.h; path = "Reeder-Classes/ServiceFacebook.h"; sourceTree = SOURCE_ROOT; };
+		537AB354162950AC001872CC /* ServiceFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceFormController.h; path = "Reeder-Classes/ServiceFormController.h"; sourceTree = SOURCE_ROOT; };
+		537AB355162950AC001872CC /* ServiceGoogleMobilizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceGoogleMobilizer.h; path = "Reeder-Classes/ServiceGoogleMobilizer.h"; sourceTree = SOURCE_ROOT; };
+		537AB356162950AC001872CC /* ServiceInstapaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceInstapaper.h; path = "Reeder-Classes/ServiceInstapaper.h"; sourceTree = SOURCE_ROOT; };
+		537AB357162950AC001872CC /* ServiceInstapaperMobilizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceInstapaperMobilizer.h; path = "Reeder-Classes/ServiceInstapaperMobilizer.h"; sourceTree = SOURCE_ROOT; };
+		537AB358162950AC001872CC /* ServiceMailLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceMailLink.h; path = "Reeder-Classes/ServiceMailLink.h"; sourceTree = SOURCE_ROOT; };
+		537AB359162950AC001872CC /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceManager.h; path = "Reeder-Classes/ServiceManager.h"; sourceTree = SOURCE_ROOT; };
+		537AB35A162950AC001872CC /* ServiceOriginalGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceOriginalGoogle.h; path = "Reeder-Classes/ServiceOriginalGoogle.h"; sourceTree = SOURCE_ROOT; };
+		537AB35B162950AC001872CC /* ServiceOriginalInstapaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceOriginalInstapaper.h; path = "Reeder-Classes/ServiceOriginalInstapaper.h"; sourceTree = SOURCE_ROOT; };
+		537AB35C162950AC001872CC /* ServicePinboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicePinboard.h; path = "Reeder-Classes/ServicePinboard.h"; sourceTree = SOURCE_ROOT; };
+		537AB35D162950AC001872CC /* ServicePopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicePopoverController.h; path = "Reeder-Classes/ServicePopoverController.h"; sourceTree = SOURCE_ROOT; };
+		537AB35E162950AC001872CC /* ServiceReadability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceReadability.h; path = "Reeder-Classes/ServiceReadability.h"; sourceTree = SOURCE_ROOT; };
+		537AB35F162950AC001872CC /* ServiceReaderNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceReaderNote.h; path = "Reeder-Classes/ServiceReaderNote.h"; sourceTree = SOURCE_ROOT; };
+		537AB360162950AC001872CC /* ServiceReadItLater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceReadItLater.h; path = "Reeder-Classes/ServiceReadItLater.h"; sourceTree = SOURCE_ROOT; };
+		537AB361162950AC001872CC /* ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceRequest.h; path = "Reeder-Classes/ServiceRequest.h"; sourceTree = SOURCE_ROOT; };
+		537AB362162950AC001872CC /* ServiceSafariReadingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceSafariReadingList.h; path = "Reeder-Classes/ServiceSafariReadingList.h"; sourceTree = SOURCE_ROOT; };
+		537AB363162950AC001872CC /* ServiceTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceTwitter.h; path = "Reeder-Classes/ServiceTwitter.h"; sourceTree = SOURCE_ROOT; };
+		537AB364162950AC001872CC /* ServiceUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceUser.h; path = "Reeder-Classes/ServiceUser.h"; sourceTree = SOURCE_ROOT; };
+		537AB365162950AC001872CC /* ServiceZootool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceZootool.h; path = "Reeder-Classes/ServiceZootool.h"; sourceTree = SOURCE_ROOT; };
+		537AB366162950AC001872CC /* SetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupController.h; path = "Reeder-Classes/SetupController.h"; sourceTree = SOURCE_ROOT; };
+		537AB367162950AC001872CC /* SetupControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SetupControllerDelegate-Protocol.h"; path = "Reeder-Classes/SetupControllerDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB368162950AC001872CC /* SetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupView.h; path = "Reeder-Classes/SetupView.h"; sourceTree = SOURCE_ROOT; };
+		537AB369162950AC001872CC /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = "Reeder-Classes/SFHFKeychainUtils.h"; sourceTree = SOURCE_ROOT; };
+		537AB36A162950AC001872CC /* ShareObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareObject.h; path = "Reeder-Classes/ShareObject.h"; sourceTree = SOURCE_ROOT; };
+		537AB36B162950AC001872CC /* SpaceyDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SpaceyDelegate-Protocol.h"; path = "Reeder-Classes/SpaceyDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB36C162950AC001872CC /* SQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = "Reeder-Classes/SQLite.h"; sourceTree = SOURCE_ROOT; };
+		537AB36D162950AC001872CC /* SQLiteStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteStatement.h; path = "Reeder-Classes/SQLiteStatement.h"; sourceTree = SOURCE_ROOT; };
+		537AB36E162950AC001872CC /* SRDummyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRDummyClass.h; path = "Reeder-Classes/SRDummyClass.h"; sourceTree = SOURCE_ROOT; };
+		537AB36F162950AC001872CC /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRKeyCodeTransformer.h; path = "Reeder-Classes/SRKeyCodeTransformer.h"; sourceTree = SOURCE_ROOT; };
+		537AB370162950AC001872CC /* SRRecorderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRRecorderCell.h; path = "Reeder-Classes/SRRecorderCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB371162950AC001872CC /* SRRecorderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRRecorderControl.h; path = "Reeder-Classes/SRRecorderControl.h"; sourceTree = SOURCE_ROOT; };
+		537AB372162950AC001872CC /* SRSharedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRSharedImageProvider.h; path = "Reeder-Classes/SRSharedImageProvider.h"; sourceTree = SOURCE_ROOT; };
+		537AB373162950AC001872CC /* SRValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRValidator.h; path = "Reeder-Classes/SRValidator.h"; sourceTree = SOURCE_ROOT; };
+		537AB374162950AC001872CC /* SubscriptionDisclosureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionDisclosureButton.h; path = "Reeder-Classes/SubscriptionDisclosureButton.h"; sourceTree = SOURCE_ROOT; };
+		537AB375162950AC001872CC /* SubscriptionDisclosureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionDisclosureView.h; path = "Reeder-Classes/SubscriptionDisclosureView.h"; sourceTree = SOURCE_ROOT; };
+		537AB376162950AC001872CC /* SubscriptionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionItem.h; path = "Reeder-Classes/SubscriptionItem.h"; sourceTree = SOURCE_ROOT; };
+		537AB377162950AC001872CC /* SubscriptionNameFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionNameFormatter.h; path = "Reeder-Classes/SubscriptionNameFormatter.h"; sourceTree = SOURCE_ROOT; };
+		537AB378162950AC001872CC /* SubscriptionNSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionNSTableViewCell.h; path = "Reeder-Classes/SubscriptionNSTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB379162950AC001872CC /* SubscriptionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionObject.h; path = "Reeder-Classes/SubscriptionObject.h"; sourceTree = SOURCE_ROOT; };
+		537AB37A162950AC001872CC /* SubscriptionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionsManager.h; path = "Reeder-Classes/SubscriptionsManager.h"; sourceTree = SOURCE_ROOT; };
+		537AB37B162950AC001872CC /* SubscriptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionsViewController.h; path = "Reeder-Classes/SubscriptionsViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB37C162950AC001872CC /* SubscriptionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionTableView.h; path = "Reeder-Classes/SubscriptionTableView.h"; sourceTree = SOURCE_ROOT; };
+		537AB37D162950AC001872CC /* SubscriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionTableViewCell.h; path = "Reeder-Classes/SubscriptionTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB37E162950AC001872CC /* SubscriptionTableViewCellDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SubscriptionTableViewCellDelegate-Protocol.h"; path = "Reeder-Classes/SubscriptionTableViewCellDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537AB37F162950AC001872CC /* SubscriptionTableViewScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionTableViewScroller.h; path = "Reeder-Classes/SubscriptionTableViewScroller.h"; sourceTree = SOURCE_ROOT; };
+		537AB380162950AC001872CC /* SubscriptionTableViewScrollerKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionTableViewScrollerKnob.h; path = "Reeder-Classes/SubscriptionTableViewScrollerKnob.h"; sourceTree = SOURCE_ROOT; };
+		537AB381162950AC001872CC /* SyncJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncJob.h; path = "Reeder-Classes/SyncJob.h"; sourceTree = SOURCE_ROOT; };
+		537AB382162950AC001872CC /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableView.h; path = "Reeder-Classes/TableView.h"; sourceTree = SOURCE_ROOT; };
+		537AB383162950AC001872CC /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = "Reeder-Classes/TableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		537AB384162950AC001872CC /* TableViewCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCellBackgroundView.h; path = "Reeder-Classes/TableViewCellBackgroundView.h"; sourceTree = SOURCE_ROOT; };
+		537AB385162950AC001872CC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = "Reeder-Classes/TableViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB386162950AC001872CC /* TableViewScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewScroller.h; path = "Reeder-Classes/TableViewScroller.h"; sourceTree = SOURCE_ROOT; };
+		537AB387162950AC001872CC /* TableViewScrollerKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewScrollerKnob.h; path = "Reeder-Classes/TableViewScrollerKnob.h"; sourceTree = SOURCE_ROOT; };
+		537AB388162950AC001872CC /* TableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewSectionHeader.h; path = "Reeder-Classes/TableViewSectionHeader.h"; sourceTree = SOURCE_ROOT; };
+		537AB389162950AC001872CC /* TransparentScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransparentScroller.h; path = "Reeder-Classes/TransparentScroller.h"; sourceTree = SOURCE_ROOT; };
+		537AB38A162950AC001872CC /* URLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLCache.h; path = "Reeder-Classes/URLCache.h"; sourceTree = SOURCE_ROOT; };
+		537AB38B162950AC001872CC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Reeder-Classes/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB38C162950AC001872CC /* WebLocationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebLocationLabel.h; path = "Reeder-Classes/WebLocationLabel.h"; sourceTree = SOURCE_ROOT; };
+		537AB38D162950AC001872CC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "Reeder-Classes/WebViewController.h"; sourceTree = SOURCE_ROOT; };
+		537AB38E162950AC001872CC /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WindowController.h; path = "Reeder-Classes/WindowController.h"; sourceTree = SOURCE_ROOT; };
+		537AB38F162950AC001872CC /* WindowSizeDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WindowSizeDelegate-Protocol.h"; path = "Reeder-Classes/WindowSizeDelegate-Protocol.h"; sourceTree = SOURCE_ROOT; };
+		537EC1B5162716F200F983D7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		538C72B816259A4B00B1FC0B /* ReederMagnificationHack.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReederMagnificationHack.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		538C72BB16259A4B00B1FC0B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		538C72BF16259A4B00B1FC0B /* ReederMagnificationHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReederMagnificationHack-Info.plist"; sourceTree = "<group>"; };
 		538C72C116259A4B00B1FC0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		538C72C316259A4B00B1FC0B /* ReederMagnificationHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReederMagnificationHack-Prefix.pch"; sourceTree = "<group>"; };
+		538C72C916259AD400B1FC0B /* ReederMagnification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReederMagnification.h; sourceTree = "<group>"; };
+		538C72CA16259AD400B1FC0B /* ReederMagnification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReederMagnification.m; sourceTree = "<group>"; };
+		538C72CC16259EE100B1FC0B /* WebView+EnableMaganification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView+EnableMaganification.h"; sourceTree = "<group>"; };
+		538C72CD16259EE100B1FC0B /* WebView+EnableMaganification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WebView+EnableMaganification.m"; sourceTree = "<group>"; };
+		538C72CF1625A1F900B1FC0B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		538C72D11625AD2B00B1FC0B /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		538C72D21625AD2B00B1FC0B /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +356,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537EC1B6162716F200F983D7 /* WebKit.framework in Frameworks */,
+				538C72D01625A1F900B1FC0B /* AppKit.framework in Frameworks */,
 				538C72BC16259A4B00B1FC0B /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +365,345 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		537AB24E16295082001872CC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				538C72C916259AD400B1FC0B /* ReederMagnification.h */,
+				538C72CA16259AD400B1FC0B /* ReederMagnification.m */,
+				538C72CC16259EE100B1FC0B /* WebView+EnableMaganification.h */,
+				538C72CD16259EE100B1FC0B /* WebView+EnableMaganification.m */,
+				538C72D11625AD2B00B1FC0B /* NSObject+Swizzle.h */,
+				538C72D21625AD2B00B1FC0B /* NSObject+Swizzle.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		537AB2501629508F001872CC /* Classdump */ = {
+			isa = PBXGroup;
+			children = (
+				537AB251162950AC001872CC /* __CoreWindowPopoverContentViewPaint.h */,
+				537AB252162950AC001872CC /* AboutController.h */,
+				537AB253162950AC001872CC /* AccountController.h */,
+				537AB254162950AC001872CC /* AccountControllerDelegate-Protocol.h */,
+				537AB255162950AC001872CC /* AddSubscriptionController.h */,
+				537AB256162950AC001872CC /* AddSubscriptionDelegate-Protocol.h */,
+				537AB257162950AC001872CC /* ArticleNSView.h */,
+				537AB258162950AC001872CC /* ArticleShadowView.h */,
+				537AB259162950AC001872CC /* ArticleView.h */,
+				537AB25A162950AC001872CC /* ArticleViewController.h */,
+				537AB25B162950AC001872CC /* ArticleViewStreamView.h */,
+				537AB25C162950AC001872CC /* CALayer-CoreKit.h */,
+				537AB25D162950AC001872CC /* CDataScanner.h */,
+				537AB25E162950AC001872CC /* CDStructures.h */,
+				537AB25F162950AC001872CC /* CFilteringJSONSerializer.h */,
+				537AB260162950AC001872CC /* CJSONDeserializer.h */,
+				537AB261162950AC001872CC /* CJSONScanner.h */,
+				537AB262162950AC001872CC /* CJSONSerializable-Protocol.h */,
+				537AB263162950AC001872CC /* CJSONSerialization.h */,
+				537AB264162950AC001872CC /* CJSONSerializedData.h */,
+				537AB265162950AC001872CC /* CJSONSerializer.h */,
+				537AB266162950AC001872CC /* Core.h */,
+				537AB267162950AC001872CC /* CoreActivityIndicator.h */,
+				537AB268162950AC001872CC /* CoreActivityIndicatorLayer.h */,
+				537AB269162950AC001872CC /* CoreBackgroundView.h */,
+				537AB26A162950AC001872CC /* CoreBarButtonItem.h */,
+				537AB26B162950AC001872CC /* CoreBarFlexibleSpaceItem.h */,
+				537AB26C162950AC001872CC /* CoreBarItem.h */,
+				537AB26D162950AC001872CC /* CoreBarSpaceItem.h */,
+				537AB26E162950AC001872CC /* CoreBarView.h */,
+				537AB26F162950AC001872CC /* CoreBarViewDelegate-Protocol.h */,
+				537AB270162950AC001872CC /* CoreBounceView.h */,
+				537AB271162950AC001872CC /* CoreButton.h */,
+				537AB272162950AC001872CC /* CoreControl.h */,
+				537AB273162950AC001872CC /* CoreControlTargetAction.h */,
+				537AB274162950AC001872CC /* CoreDividerView.h */,
+				537AB275162950AC001872CC /* CoreDividerViewDelegate-Protocol.h */,
+				537AB276162950AC001872CC /* CoreFormButtonCell.h */,
+				537AB277162950AC001872CC /* CoreFormCell.h */,
+				537AB278162950AC001872CC /* CoreFormController.h */,
+				537AB279162950AC001872CC /* CoreFormControllerDelegate-Protocol.h */,
+				537AB27A162950AC001872CC /* CoreFormLabelCell.h */,
+				537AB27B162950AC001872CC /* CoreFormTableView.h */,
+				537AB27C162950AC001872CC /* CoreFormTextFieldCell.h */,
+				537AB27D162950AC001872CC /* CoreFormTextViewActionsCell.h */,
+				537AB27E162950AC001872CC /* CoreFormTextViewCell.h */,
+				537AB27F162950AC001872CC /* CoreFormTitlebar.h */,
+				537AB280162950AC001872CC /* CoreGeometry.h */,
+				537AB281162950AC001872CC /* CoreGeometryItem.h */,
+				537AB282162950AC001872CC /* CoreLabel.h */,
+				537AB283162950AC001872CC /* CoreLayer.h */,
+				537AB284162950AC001872CC /* CoreLayoutManager.h */,
+				537AB285162950AC001872CC /* CoreNavigationController.h */,
+				537AB286162950AC001872CC /* CoreNSScroller.h */,
+				537AB287162950AC001872CC /* CoreNSSecureTextField.h */,
+				537AB288162950AC001872CC /* CoreNSTextField.h */,
+				537AB289162950AC001872CC /* CoreNSTextView.h */,
+				537AB28A162950AC001872CC /* CoreNSWebView.h */,
+				537AB28B162950AC001872CC /* CoreNSWindow.h */,
+				537AB28C162950AC001872CC /* CorePainter.h */,
+				537AB28D162950AC001872CC /* CorePopover.h */,
+				537AB28E162950AC001872CC /* CorePopoverBackgroundView.h */,
+				537AB28F162950AC001872CC /* CorePopoverController.h */,
+				537AB290162950AC001872CC /* CorePopoverPainter.h */,
+				537AB291162950AC001872CC /* CoreReederAppDelegate.h */,
+				537AB292162950AC001872CC /* CoreResponder.h */,
+				537AB293162950AC001872CC /* CoreScroller.h */,
+				537AB294162950AC001872CC /* CoreScrollerKnob.h */,
+				537AB295162950AC001872CC /* CoreScrollLayer.h */,
+				537AB296162950AC001872CC /* CoreScrollView.h */,
+				537AB297162950AC001872CC /* CoreScrollViewAnimation.h */,
+				537AB298162950AC001872CC /* CoreScrollViewDelegate-Protocol.h */,
+				537AB299162950AC001872CC /* CoreSplitView.h */,
+				537AB29A162950AC001872CC /* CoreTableView.h */,
+				537AB29B162950AC001872CC /* CoreTableViewCell.h */,
+				537AB29C162950AC001872CC /* CoreTableViewCellContentView.h */,
+				537AB29D162950AC001872CC /* CoreTableViewCellContentViewDelegate-Protocol.h */,
+				537AB29E162950AC001872CC /* CoreTableViewController.h */,
+				537AB29F162950AC001872CC /* CoreTableViewDataSource-Protocol.h */,
+				537AB2A0162950AC001872CC /* CoreTableViewDelegate-Protocol.h */,
+				537AB2A1162950AC001872CC /* CoreTableViewSectionHeader.h */,
+				537AB2A2162950AC001872CC /* CoreTableViewSectionHeaderContentView.h */,
+				537AB2A3162950AC001872CC /* CoreTableViewSectionHeaderContentViewDelegate-Protocol.h */,
+				537AB2A4162950AC001872CC /* CoreTextField.h */,
+				537AB2A5162950AC001872CC /* CoreTextFieldDelegate-Protocol.h */,
+				537AB2A6162950AC001872CC /* CoreTextView.h */,
+				537AB2A7162950AC001872CC /* CoreTextViewDelegate-Protocol.h */,
+				537AB2A8162950AC001872CC /* CoreTransaction.h */,
+				537AB2A9162950AC001872CC /* CoreUIPopover.h */,
+				537AB2AA162950AC001872CC /* CoreUIWindow.h */,
+				537AB2AB162950AC001872CC /* CoreUIWindowBarView.h */,
+				537AB2AC162950AC001872CC /* CoreUIWindowContentView.h */,
+				537AB2AD162950AC001872CC /* CoreView.h */,
+				537AB2AE162950AC001872CC /* CoreViewContainer.h */,
+				537AB2AF162950AC001872CC /* CoreViewContainerKeyViewIndicator.h */,
+				537AB2B0162950AC001872CC /* CoreViewController.h */,
+				537AB2B1162950AC001872CC /* CoreViewFrameAnimation.h */,
+				537AB2B2162950AC001872CC /* CoreWebView.h */,
+				537AB2B3162950AC001872CC /* CoreWindow.h */,
+				537AB2B4162950AC001872CC /* CoreWindowBackingLayer.h */,
+				537AB2B5162950AC001872CC /* CoreWindowBackingView.h */,
+				537AB2B6162950AC001872CC /* CoreWindowDefaultContentView.h */,
+				537AB2B7162950AC001872CC /* CoreWindowKeyViewSelector-Protocol.h */,
+				537AB2B8162950AC001872CC /* CoreWindowPopover.h */,
+				537AB2B9162950AC001872CC /* CoreWindowPopoverContentView.h */,
+				537AB2BA162950AC001872CC /* CoreWindowResizeIndicatorView.h */,
+				537AB2BB162950AC001872CC /* DockTileView.h */,
+				537AB2BC162950AC001872CC /* Editor.h */,
+				537AB2BD162950AC001872CC /* EditorCommand.h */,
+				537AB2BE162950AC001872CC /* FilterView.h */,
+				537AB2BF162950AC001872CC /* FilterViewButton.h */,
+				537AB2C0162950AC001872CC /* GestureHandler.h */,
+				537AB2C1162950AC001872CC /* IconButtonActivityView.h */,
+				537AB2C2162950AC001872CC /* IconButtonImageView.h */,
+				537AB2C3162950AC001872CC /* IconButtonView.h */,
+				537AB2C4162950AC001872CC /* IconFetcher.h */,
+				537AB2C5162950AC001872CC /* IconManager.h */,
+				537AB2C6162950AC001872CC /* Image.h */,
+				537AB2C7162950AC001872CC /* ItemsTableViewCell.h */,
+				537AB2C8162950AC001872CC /* ItemsTableViewDelayedFetchOverlay.h */,
+				537AB2C9162950AC001872CC /* ItemsViewController.h */,
+				537AB2CA162950AC001872CC /* Menu.h */,
+				537AB2CB162950AC001872CC /* MenuItem.h */,
+				537AB2CC162950AC001872CC /* MenuManager.h */,
+				537AB2CD162950AC001872CC /* MGTwitterEngine.h */,
+				537AB2CE162950AC001872CC /* MGTwitterEngineDelegate-Protocol.h */,
+				537AB2CF162950AC001872CC /* MGTwitterHTTPURLConnection.h */,
+				537AB2D0162950AC001872CC /* MGTwitterMessagesParser.h */,
+				537AB2D1162950AC001872CC /* MGTwitterMiscParser.h */,
+				537AB2D2162950AC001872CC /* MGTwitterParserDelegate-Protocol.h */,
+				537AB2D3162950AC001872CC /* MGTwitterSocialGraphParser.h */,
+				537AB2D4162950AC001872CC /* MGTwitterStatusesParser.h */,
+				537AB2D5162950AC001872CC /* MGTwitterTouchJSONParser.h */,
+				537AB2D6162950AC001872CC /* MGTwitterUsersParser.h */,
+				537AB2D7162950AC001872CC /* MGTwitterXMLParser.h */,
+				537AB2D8162950AC001872CC /* NSAlert-SRAdditions.h */,
+				537AB2D9162950AC001872CC /* NSApplicationDelegate-Protocol.h */,
+				537AB2DA162950AC001872CC /* NSCoding-Protocol.h */,
+				537AB2DB162950AC001872CC /* NSColor-CoreKit.h */,
+				537AB2DC162950AC001872CC /* NSColor-Reeder.h */,
+				537AB2DD162950AC001872CC /* NSControlTextEditingDelegate-Protocol.h */,
+				537AB2DE162950AC001872CC /* NSData-Base64.h */,
+				537AB2DF162950AC001872CC /* NSData-CoreKit.h */,
+				537AB2E0162950AC001872CC /* NSData-Reader.h */,
+				537AB2E1162950AC001872CC /* NSDate-Reader.h */,
+				537AB2E2162950AC001872CC /* NSDateFormatter-Reader.h */,
+				537AB2E3162950AC001872CC /* NSDictionary-MGTwitterEngineExtensions.h */,
+				537AB2E4162950AC001872CC /* NSDictionary-NSDictionary_JSONExtensions.h */,
+				537AB2E5162950AC001872CC /* NSEvent-CoreKit.h */,
+				537AB2E6162950AC001872CC /* NSFont-CoreKit.h */,
+				537AB2E7162950AC001872CC /* NSFont-Reeder.h */,
+				537AB2E8162950AC001872CC /* NSImage-Reeder.h */,
+				537AB2E9162950AC001872CC /* NSIndexPath-CoreKit.h */,
+				537AB2EA162950AC001872CC /* NSIndexPath-Reeder.h */,
+				537AB2EB162950AC001872CC /* NSMenuDelegate-Protocol.h */,
+				537AB2EC162950AC001872CC /* NSMutableURLRequest-OAParameterAdditions.h */,
+				537AB2ED162950AC001872CC /* NSObject-Additions.h */,
+				537AB2EE162950AC001872CC /* NSObject-Protocol.h */,
+				537AB2EF162950AC001872CC /* NSObject-SRValidation.h */,
+				537AB2F0162950AC001872CC /* NSOutlineViewDataSource-Protocol.h */,
+				537AB2F1162950AC001872CC /* NSOutlineViewDelegate-Protocol.h */,
+				537AB2F2162950AC001872CC /* NSPasteboard-URL.h */,
+				537AB2F3162950AC001872CC /* NSScrollView-Reeder.h */,
+				537AB2F4162950AC001872CC /* NSString-CoreKit.h */,
+				537AB2F5162950AC001872CC /* NSString-OAURLEncodingAdditions.h */,
+				537AB2F6162950AC001872CC /* NSString-Reader.h */,
+				537AB2F7162950AC001872CC /* NSString-URLEncoding.h */,
+				537AB2F8162950AC001872CC /* NSString-UUID.h */,
+				537AB2F9162950AC001872CC /* NSTableViewDataSource-Protocol.h */,
+				537AB2FA162950AC001872CC /* NSTextDelegate-Protocol.h */,
+				537AB2FB162950AC001872CC /* NSTextFieldDelegate-Protocol.h */,
+				537AB2FC162950AC001872CC /* NSTextInput-Protocol.h */,
+				537AB2FD162950AC001872CC /* NSTextView-CoreKit.h */,
+				537AB2FE162950AC001872CC /* NSTextViewDelegate-Protocol.h */,
+				537AB2FF162950AC001872CC /* NSToolbarDelegate-Protocol.h */,
+				537AB300162950AC001872CC /* NSURL-OABaseAdditions.h */,
+				537AB301162950AC001872CC /* NSURLRequest-OAuthExtensions.h */,
+				537AB302162950AC001872CC /* NSUserDefaults-Reeder.h */,
+				537AB303162950AC001872CC /* NSWindow-CoreResponder.h */,
+				537AB304162950AC001872CC /* NSWindowDelegate-Protocol.h */,
+				537AB305162950AC001872CC /* NSWorkspace-Reeder.h */,
+				537AB306162950AC001872CC /* NSXMLParserDelegate-Protocol.h */,
+				537AB307162950AC001872CC /* OAAttachment.h */,
+				537AB308162950AC001872CC /* OACall.h */,
+				537AB309162950AC001872CC /* OACallDelegate-Protocol.h */,
+				537AB30A162950AC001872CC /* OAConsumer.h */,
+				537AB30B162950AC001872CC /* OADataFetcher.h */,
+				537AB30C162950AC001872CC /* OAHMAC_SHA1SignatureProvider.h */,
+				537AB30D162950AC001872CC /* OAMutableURLRequest.h */,
+				537AB30E162950AC001872CC /* OAPlaintextSignatureProvider.h */,
+				537AB30F162950AC001872CC /* OAProblem.h */,
+				537AB310162950AC001872CC /* OARequestParameter.h */,
+				537AB311162950AC001872CC /* OAServiceTicket.h */,
+				537AB312162950AC001872CC /* OASignatureProviding-Protocol.h */,
+				537AB313162950AC001872CC /* OAToken.h */,
+				537AB314162950AC001872CC /* OATokenManager.h */,
+				537AB315162950AC001872CC /* OutlineView.h */,
+				537AB316162950AC001872CC /* PrefAccountController.h */,
+				537AB317162950AC001872CC /* PrefController.h */,
+				537AB318162950AC001872CC /* PreferencesController.h */,
+				537AB319162950AC001872CC /* PrefGeneralController.h */,
+				537AB31A162950AC001872CC /* PrefGesturesController.h */,
+				537AB31B162950AC001872CC /* PrefInterfaceController.h */,
+				537AB31C162950AC001872CC /* PrefInterfaceSlider.h */,
+				537AB31D162950AC001872CC /* PrefReadingController.h */,
+				537AB31E162950AC001872CC /* PrefServicesController.h */,
+				537AB31F162950AC001872CC /* PrefShortcutController.h */,
+				537AB320162950AC001872CC /* PrefSyncingController.h */,
+				537AB321162950AC001872CC /* Reachability.h */,
+				537AB322162950AC001872CC /* Readability.h */,
+				537AB323162950AC001872CC /* ReadabilityButton.h */,
+				537AB324162950AC001872CC /* ReadabilityDelegate-Protocol.h */,
+				537AB325162950AC001872CC /* ReadabilityEngine.h */,
+				537AB326162950AC001872CC /* ReadabilitySync.h */,
+				537AB327162950AC001872CC /* ReadabilitySyncFetcher.h */,
+				537AB328162950AC001872CC /* Reader.h */,
+				537AB329162950AC001872CC /* ReaderCleaner.h */,
+				537AB32A162950AC001872CC /* ReaderCore.h */,
+				537AB32B162950AC001872CC /* ReaderCountsUtil.h */,
+				537AB32C162950AC001872CC /* ReaderFeed.h */,
+				537AB32D162950AC001872CC /* ReaderFetchItems.h */,
+				537AB32E162950AC001872CC /* ReaderFetchStoredItems.h */,
+				537AB32F162950AC001872CC /* ReaderFolder.h */,
+				537AB330162950AC001872CC /* ReaderItem.h */,
+				537AB331162950AC001872CC /* ReaderItemCache.h */,
+				537AB332162950AC001872CC /* ReaderItemData.h */,
+				537AB333162950AC001872CC /* ReaderOperation.h */,
+				537AB334162950AC001872CC /* ReaderOperationQueue.h */,
+				537AB335162950AC001872CC /* ReaderRequest.h */,
+				537AB336162950AC001872CC /* ReaderStore.h */,
+				537AB337162950AC001872CC /* ReaderStream.h */,
+				537AB338162950AC001872CC /* ReaderSync.h */,
+				537AB339162950AC001872CC /* ReaderSyncCache.h */,
+				537AB33A162950AC001872CC /* ReaderSyncFollowers.h */,
+				537AB33B162950AC001872CC /* ReaderSyncItems.h */,
+				537AB33C162950AC001872CC /* ReaderSyncSubscriptions.h */,
+				537AB33D162950AC001872CC /* ReaderUser.h */,
+				537AB33E162950AC001872CC /* Reeder.h */,
+				537AB33F162950AC001872CC /* RootView.h */,
+				537AB340162950AC001872CC /* RootViewController.h */,
+				537AB341162950AC001872CC /* RSDataStore.h */,
+				537AB342162950AC001872CC /* RSFetchedResultsController.h */,
+				537AB343162950AC001872CC /* RSFetchedResultsControllerDelegate-Protocol.h */,
+				537AB344162950AC001872CC /* RSFetchedResultsSectionInfo-Protocol.h */,
+				537AB345162950AC001872CC /* RSFetchRequest.h */,
+				537AB346162950AC001872CC /* RSManagedObject.h */,
+				537AB347162950AC001872CC /* RSSectionInfo.h */,
+				537AB348162950AC001872CC /* Scrollview.h */,
+				537AB349162950AC001872CC /* SearchTextField.h */,
+				537AB34A162950AC001872CC /* SearchTextFieldDelegate-Protocol.h */,
+				537AB34B162950AC001872CC /* Service.h */,
+				537AB34C162950AC001872CC /* ServiceAlternateBrowser.h */,
+				537AB34D162950AC001872CC /* ServiceBlog.h */,
+				537AB34E162950AC001872CC /* ServiceBrowser.h */,
+				537AB34F162950AC001872CC /* ServiceCopyLink.h */,
+				537AB350162950AC001872CC /* ServiceDelegate-Protocol.h */,
+				537AB351162950AC001872CC /* ServiceDelicious.h */,
+				537AB352162950AC001872CC /* ServiceEvernote.h */,
+				537AB353162950AC001872CC /* ServiceFacebook.h */,
+				537AB354162950AC001872CC /* ServiceFormController.h */,
+				537AB355162950AC001872CC /* ServiceGoogleMobilizer.h */,
+				537AB356162950AC001872CC /* ServiceInstapaper.h */,
+				537AB357162950AC001872CC /* ServiceInstapaperMobilizer.h */,
+				537AB358162950AC001872CC /* ServiceMailLink.h */,
+				537AB359162950AC001872CC /* ServiceManager.h */,
+				537AB35A162950AC001872CC /* ServiceOriginalGoogle.h */,
+				537AB35B162950AC001872CC /* ServiceOriginalInstapaper.h */,
+				537AB35C162950AC001872CC /* ServicePinboard.h */,
+				537AB35D162950AC001872CC /* ServicePopoverController.h */,
+				537AB35E162950AC001872CC /* ServiceReadability.h */,
+				537AB35F162950AC001872CC /* ServiceReaderNote.h */,
+				537AB360162950AC001872CC /* ServiceReadItLater.h */,
+				537AB361162950AC001872CC /* ServiceRequest.h */,
+				537AB362162950AC001872CC /* ServiceSafariReadingList.h */,
+				537AB363162950AC001872CC /* ServiceTwitter.h */,
+				537AB364162950AC001872CC /* ServiceUser.h */,
+				537AB365162950AC001872CC /* ServiceZootool.h */,
+				537AB366162950AC001872CC /* SetupController.h */,
+				537AB367162950AC001872CC /* SetupControllerDelegate-Protocol.h */,
+				537AB368162950AC001872CC /* SetupView.h */,
+				537AB369162950AC001872CC /* SFHFKeychainUtils.h */,
+				537AB36A162950AC001872CC /* ShareObject.h */,
+				537AB36B162950AC001872CC /* SpaceyDelegate-Protocol.h */,
+				537AB36C162950AC001872CC /* SQLite.h */,
+				537AB36D162950AC001872CC /* SQLiteStatement.h */,
+				537AB36E162950AC001872CC /* SRDummyClass.h */,
+				537AB36F162950AC001872CC /* SRKeyCodeTransformer.h */,
+				537AB370162950AC001872CC /* SRRecorderCell.h */,
+				537AB371162950AC001872CC /* SRRecorderControl.h */,
+				537AB372162950AC001872CC /* SRSharedImageProvider.h */,
+				537AB373162950AC001872CC /* SRValidator.h */,
+				537AB374162950AC001872CC /* SubscriptionDisclosureButton.h */,
+				537AB375162950AC001872CC /* SubscriptionDisclosureView.h */,
+				537AB376162950AC001872CC /* SubscriptionItem.h */,
+				537AB377162950AC001872CC /* SubscriptionNameFormatter.h */,
+				537AB378162950AC001872CC /* SubscriptionNSTableViewCell.h */,
+				537AB379162950AC001872CC /* SubscriptionObject.h */,
+				537AB37A162950AC001872CC /* SubscriptionsManager.h */,
+				537AB37B162950AC001872CC /* SubscriptionsViewController.h */,
+				537AB37C162950AC001872CC /* SubscriptionTableView.h */,
+				537AB37D162950AC001872CC /* SubscriptionTableViewCell.h */,
+				537AB37E162950AC001872CC /* SubscriptionTableViewCellDelegate-Protocol.h */,
+				537AB37F162950AC001872CC /* SubscriptionTableViewScroller.h */,
+				537AB380162950AC001872CC /* SubscriptionTableViewScrollerKnob.h */,
+				537AB381162950AC001872CC /* SyncJob.h */,
+				537AB382162950AC001872CC /* TableView.h */,
+				537AB383162950AC001872CC /* TableViewCell.h */,
+				537AB384162950AC001872CC /* TableViewCellBackgroundView.h */,
+				537AB385162950AC001872CC /* TableViewController.h */,
+				537AB386162950AC001872CC /* TableViewScroller.h */,
+				537AB387162950AC001872CC /* TableViewScrollerKnob.h */,
+				537AB388162950AC001872CC /* TableViewSectionHeader.h */,
+				537AB389162950AC001872CC /* TransparentScroller.h */,
+				537AB38A162950AC001872CC /* URLCache.h */,
+				537AB38B162950AC001872CC /* ViewController.h */,
+				537AB38C162950AC001872CC /* WebLocationLabel.h */,
+				537AB38D162950AC001872CC /* WebViewController.h */,
+				537AB38E162950AC001872CC /* WindowController.h */,
+				537AB38F162950AC001872CC /* WindowSizeDelegate-Protocol.h */,
+			);
+			name = Classdump;
+			sourceTree = "<group>";
+		};
 		538C72AD16259A4B00B1FC0B = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +724,8 @@
 		538C72BA16259A4B00B1FC0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				537EC1B5162716F200F983D7 /* WebKit.framework */,
+				538C72CF1625A1F900B1FC0B /* AppKit.framework */,
 				538C72BB16259A4B00B1FC0B /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
@@ -59,6 +734,8 @@
 		538C72BD16259A4B00B1FC0B /* ReederMagnificationHack */ = {
 			isa = PBXGroup;
 			children = (
+				537AB24E16295082001872CC /* Main */,
+				537AB2501629508F001872CC /* Classdump */,
 				538C72BE16259A4B00B1FC0B /* Supporting Files */,
 			);
 			path = ReederMagnificationHack;
@@ -136,6 +813,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538C72CB16259AD400B1FC0B /* ReederMagnification.m in Sources */,
+				538C72CE16259EE100B1FC0B /* WebView+EnableMaganification.m in Sources */,
+				538C72D31625AD2B00B1FC0B /* NSObject+Swizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +931,7 @@
 				538C72C816259A4B00B1FC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
