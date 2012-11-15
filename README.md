@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Description
 
 A SIMBL Plugin which enabled magnification for the built-in browser of Reeder.app
@@ -16,3 +17,7 @@ Put ReederMagnificationHack.bundle into ~/Library/Application Support/SIMBL/Plug
 ----------
 [http://axot.mit-license.org](http://axot.mit-license.org)
 
+=======
+ReederMagnification
+===================
+>>>>>>> e53a9d48746f595441c43cf276280ca1332d8c4d
