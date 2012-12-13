@@ -12,6 +12,6 @@ A SIMBL Plugin which enabled magnification for the built-in browser of Reeder.ap
 Mac OSX 10.8 or higher.
 [EasySIMBL](https://github.com/norio-nomura/EasySIMBL/) was recommended.
 
-# Lincense
+# License
 [http://axot.mit-license.org](http://axot.mit-license.org)
 
